@@ -2,57 +2,41 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <style>
-        
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background-image: linear-gradient(45deg, cyan, yellow);
-        }
+    <link rel="stylesheet" href="/src/Login/index.css">
+    <script type="text/javascript" src="js/main.js"></script>
 
-        div {
-            background-color: rgb(37, 39, 36);
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            padding: 80px;
-            border-radius: 15px;
-            color: yellow;
-        }
-
-        input {
-            padding: 15px;
-            border: none;
-            outline: none;
-            font-size: 15px;
-        }
-        button {
-            background-color: rgb(87, 134, 134);
-            border: none;
-            padding: 15px;
-            width: 100%;
-            border-radius: 10px;
-            color: white;
-            font-size: 15px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: rgb(141, 141, 76)
-
-        }
-    </style>
+    <title>Tela de Login </title>
 </head>
 <body>
-<div class="login">
-    <h1>Login</h1>
-    <input type="email" placeholder="E-mail">
-    <hr>
-    <input type="text" placeholder="Senha">
-    <br><br>
-    <button>Entrar</button>
-</div>
+    <form class="login">
+        <h2>Login</h2>
+        <div class="box-user">
+            <input type="text" name="" required>
+            <label>E-mail</label>
+        </div>
+        <div class="box-user">
+            <input type="password" name="" required>
+            <label>Senha</label>
+        </div>
+        <div>
+            <a href="http://127.0.0.1:5500/src/Cadastro/index.html" class="forget"> Cadastra-se</a>
+        </div>
+        <div class="gender-inputs">
+            <div class="gender-group">
+                <div class="gender-input">
+                    <input type="radio" id="female" name="gender" value="cliente">
+                    <label for="female">Cliente</label>
+                </div>
+
+                <div class="gender-input">
+                    <input type="radio" id="male" name="gender" value="administrador">
+                    <label for="male">Administrador</label>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn" onclick="login()">Entrar</a>
+    </form>
 </body>
 </html>

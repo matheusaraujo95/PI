@@ -4,11 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Usuarios</title>
-    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="/src/ListaUsuario/new.css">
+    
 
     <style></style>
 </head>
-<body page="lista">
-    <h1>Usuarios</h1>
+<body>
+    <script type="text/javascript" src="/public/js/mainUsuarios.js"></script>
+    <div class="coitainer">
+        <div class="header">
+            <i><h1>Funcionarios</h1></i>
+        </div>
+    
+        <div class="nav">
+            <a href="/src/alteraUsuario/index.html"><button class="tn">+ Adicionar</button></a>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th>CPF</th>
+                        <th>e-mail</th>
+                        <th>status</th>
+                        <button class="dois">Habilitar</button>
+                        <button class="Um">Desabilitar</button>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+
+    <div class="modal-container">
+        <div class="modal">
+            <form>
+            </form>
+        </div>
+    </div>
+
 </body>
 </html>

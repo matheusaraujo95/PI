@@ -1,0 +1,152 @@
+/* ... O código anterior ... */
+
+body {
+    background-color: #172031; /* Define a cor de fundo do corpo */
+  color: white; /* Define a cor do texto padrão para branco */
+}
+.container {
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+    background: white;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .header {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  #new {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(57, 57, 226);
+  }
+  
+  .nav {
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  thead {
+    background-color: #333;
+    color: white;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  .modal-container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 60%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal label {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .modal input {
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .modal button {
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(57, 57, 226);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal button:hover {
+    background-color: #333;
+  }
+  
+  /* ... O código anterior ... */
+/* ... O código anterior ... */
+
+button {
+    cursor: pointer;
+  padding: 12px 20px;
+  color: #03e9f4;
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 700;
+  margin-top: 20px;
+  transition: .5s;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  background-color: transparent; /* Removemos a cor de fundo anterior */
+  border: 2px solid #03e9f4; /* Adicionamos uma borda sólida com a mesma cor do texto */
+  }
+  
+  button:hover {
+    background-color: #03e9f4; /* Altera a cor de fundo no hover */
+    color: #172031;
+  }
+  
+  /* Estilo para os botões "Habilitar" e "Desabilitar" na tabela */
+  table button {
+    padding: 5px 10px; /* Espaçamento interno menor */
+    font-size: 12px; /* Tamanho da fonte menor */
+  }
+  
+  /* ... O código anterior ... */
+    

@@ -1,0 +1,21 @@
+* {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.coitaneir a {
+    text-decoration: none; /* Remove a sublinhado padrão dos links */
+    display: block; /* Faz com que os links ocupem a largura total da div */
+    padding: 10px; /* Espaçamento interno para os links */
+    margin: 10px 0; /* Espaçamento externo entre os links */
+    background-color: #172031; /* Cor de fundo dos links */
+    color: #fff; /* Cor do texto dos links */
+    border-radius: 5px; /* Borda arredondada */
+    text-align: center; /* Centraliza o texto dos links horizontalmente */
+    transition: background-color 0.3s; /* Adiciona uma transição suave de cor de fundo */
+}
+
+/* Estilo para os links quando passar o mouse por cima */
+.coitaneir a:hover {
+    background-color: aqua; /* Altera a cor de fundo quando o mouse passa por cima */
+}
